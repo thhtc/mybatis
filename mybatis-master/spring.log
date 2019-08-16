@@ -1,0 +1,16 @@
+23:36:55,904 DEBUG [org.apache.ibatis.logging.LogFactory] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+23:36:55,920 DEBUG [org.apache.ibatis.logging.LogFactory] Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+23:36:56,248 DEBUG [org.apache.ibatis.logging.LogFactory] Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+23:36:56,294 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] PooledDataSource forcefully closed/removed all connections.
+23:36:56,294 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] PooledDataSource forcefully closed/removed all connections.
+23:36:56,294 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] PooledDataSource forcefully closed/removed all connections.
+23:36:56,294 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] PooledDataSource forcefully closed/removed all connections.
+23:36:56,404 DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] Opening JDBC Connection
+23:36:56,981 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] Created connection 314337396.
+23:36:56,981 DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@12bc6874]
+23:36:56,996 DEBUG [com.htc.mybatis.TmpTablesMapper.selectTmpTables] ==>  Preparing: SELECT * FROM tmp_tables WHERE id = ? 
+23:36:57,106 DEBUG [com.htc.mybatis.TmpTablesMapper.selectTmpTables] ==> Parameters: 1(Integer)
+23:36:57,152 DEBUG [com.htc.mybatis.TmpTablesMapper.selectTmpTables] <==      Total: 1
+23:36:57,152 DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@12bc6874]
+23:36:57,168 DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@12bc6874]
+23:36:57,168 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] Returned connection 314337396 to pool.
